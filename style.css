@@ -5,12 +5,19 @@
     padding: 20px 50px;
     background-color: #c7a07a;
 }
+
 body {
     font-family: Arial, sans-serif;
-    margin: 5px;
-    padding: 5px;
     background-color: #f7f1e5;
 }
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
 ul a {
     color: #000000;
     text-decoration: none;
@@ -22,6 +29,7 @@ ul a:hover {
     color: #fffefe;
     font-size: 18px;
 }
+
 .photos {
     display: flex;
     gap: 20px;
@@ -34,7 +42,7 @@ ul a:hover {
     height: 220px;
     object-fit: cover;
     border-radius: 10px;
-    transition: transform 0.3s ease;
+    transition: 0.3s;
 }
 
 .photos img:hover {
